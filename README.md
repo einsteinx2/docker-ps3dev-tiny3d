@@ -1,4 +1,4 @@
-Docker image based off of https://github.com/mlafeldt/docker-ps3dev with tiny3D added from https://github.com/einsteinx2/tiny3D
+Docker image based off of https://github.com/mlafeldt/docker-ps3dev with the tiny3D library added.
 
 # A Docker Image for PS3 Development
 
