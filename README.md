@@ -14,7 +14,7 @@ Run this command in your project's root folder to build it inside a Docker
 container:
 
 ```bash
-docker run -it --rm -v "$PWD:/src" einsteinx2/ps3dev-tiny3d:1.0.0 make
+docker run -it --rm -v "$PWD:/src" einsteinx2/ps3dev-tiny3d:1.0.1 make
 ```
 
 This will mount the current folder to `/src` in the container and then run
@@ -23,7 +23,7 @@ This will mount the current folder to `/src` in the container and then run
 Omit the command to get a login shell (`/bin/bash`) in the running container:
 
 ```bash
-docker run -it --rm -v "$PWD:/src" einsteinx2/ps3dev-tiny3d:1.0.0
+docker run -it --rm -v "$PWD:/src" einsteinx2/ps3dev-tiny3d:1.0.1
 ```
 
 For a working example, use the Docker image to build the
@@ -43,7 +43,7 @@ sudo: required
 services:
   - docker
 
-script: docker run -it --rm -v "$PWD:/src" einsteinx2/ps3dev-tiny3d:1.0.0 make test
+script: docker run -it --rm -v "$PWD:/src" einsteinx2/ps3dev-tiny3d:1.0.1 make test
 ```
 
 ## Author
